@@ -177,4 +177,12 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
     margin-bottom: 3rem;
   }
   .box-description { grid-column: 1/2; }
+  .footer {
+    height: 15rem;
+  }
+  .footer-icons {
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+  }
 }
