@@ -35,7 +35,7 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
 
 .credits {
   position: absolute;
-  bottom: 3rem;
+  bottom: 1.5rem;
   font-size: 1rem;
   color: #e0c4a8;
   margin-bottom: 2rem;
@@ -51,7 +51,7 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
 .footer {
   background-color: #245724;
   background-image: linear-gradient(150deg, #1b3c5b, #103b10);
-  height: 12rem;
+  height: 10rem;
   position: relative;
 }
 
@@ -173,9 +173,6 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
     grid-template-columns: 1fr;
     grid-row-gap: 0.3%;
     width: 95%;
-  }
-  html {
-    font-size: 2rem;
   }
   .norgesferie-cover {
     width: 20rem;
