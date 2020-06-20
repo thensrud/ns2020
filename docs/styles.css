@@ -150,8 +150,6 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
   background-attachment: fixed;
   background-size: cover;
   background-color: white;
-  height: 100%;
-  width: 100%;
 }
 
 /* Responsive */
@@ -163,18 +161,19 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
   .grid-2-1-description {
     grid-template-columns: 1fr;
   }
+  .grid-2-1-artists {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.3%;
+    width: 90%;
+  }
   .margin-bottom {
     margin-bottom: 2rem;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .grid-2-1-artists {
-    grid-template-columns: 1fr;
-    grid-row-gap: 0.3%;
-    width: 95%;
-  }
   .norgesferie-cover {
+    width: 8rem;
     margin-bottom: 3rem;
   }
   .box-description { grid-column: 1/2; }
