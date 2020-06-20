@@ -150,6 +150,7 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
   background-size: cover;
   background-color: white;
   height: 100%;
+  width: 100%;
 }
 
 /* Responsive */
