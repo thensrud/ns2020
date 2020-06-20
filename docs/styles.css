@@ -173,7 +173,7 @@ a:hover { text-shadow: 0 0 15px #ede1db; }
 
 @media only screen and (max-width: 1000px) {
   .norgesferie-cover {
-    width: 8rem;
+    width: 10rem;
     margin-bottom: 3rem;
   }
   .box-description { grid-column: 1/2; }
