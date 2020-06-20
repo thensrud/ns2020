@@ -1,0 +1,182 @@
+body, html {
+  color: #f2ece4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: #f2ece4;
+  width: 0;
+  z-index: 10;
+}
+
+p { margin: 0; }
+
+#description-title { grid-column: 1/3; }
+
+a:hover { text-shadow: 0 0 15px #ede1db; }
+
+.margin-bottom { margin-bottom: 3rem; }
+
+.social-media-icon {
+  width: 2.5rem;
+  margin: 0 0.5rem 1rem 0;
+  filter: invert(95%);
+}
+
+.footer-icons {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+}
+
+.credits {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.8rem;
+  color: #e0c4a8;
+}
+
+.bg-g-blue-green {
+  background-color: #206220;
+  background-image: linear-gradient(150deg, #296fb0, #245724);
+}
+
+.box-shadow { box-shadow: 0 0 10px #0c1926; }
+
+.header {
+  height: 11rem;
+  position: relative;
+}
+
+.footer {
+  background-color: #245724;
+  background-image: linear-gradient(150deg, #1b3c5b, #103b10);
+  height: 8rem;
+  position: relative;
+}
+
+.sony-music-logo {
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  width: 15rem;
+}
+
+.norgesferie-cover {
+  width: 14rem;
+}
+
+.norgesferie-cover:hover {
+  box-shadow: 0 0 15px #ede1db;
+  cursor: pointer;
+}
+
+.main-container { overflow: auto; }
+
+.text-normal {
+  font-size: 1.3rem;
+  padding: 0 0 1rem 0;
+}
+
+.grid-2-1-description {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1%;
+  grid-column-gap: 5%;
+}
+
+.grid-2-1-artists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1%;
+  grid-column-gap: 1%;
+}
+
+.box-container {
+  margin: 0 auto;
+  padding: 1rem 1rem 4rem 1rem;
+  width: 80%;
+}
+
+.auto-resizable-iframe {
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.box-description { grid-column: 1/3; }
+
+.box-artist-image { width: 100%; }
+
+.text-container { padding: 0 1rem 0 1rem; }
+
+.box-artist-name {
+  line-height: 2.5rem;
+  padding: 2% 0 0 0;
+  margin: 0;
+}
+
+.title {
+  color: #e0c4a8;
+  font-size: 2.5rem;
+  font-family: 'Amaranth', sans-serif;
+  text-shadow: 0 0 5px black;
+}
+
+.box-artist-location {
+  color: #f2ece4;
+  font-size: 2rem;
+  padding: 0.5rem 0 1rem 0;
+  margin: 0;
+}
+
+.background-image {
+  background-image: url(images/norway_summer1_edit.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  height: 100%;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1200px) {
+  #description-title {
+    grid-column: 1/2;
+  }
+  .grid-2-1-description {
+    grid-template-columns: 1fr;
+  }
+  .margin-bottom {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-2-1-artists {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.3%;
+    width: 90%;
+  }
+  .box-description { grid-column: 1/2; }
+}
