@@ -82,7 +82,8 @@ p { margin: 0; }
 }
 
 .norgesferie-cover {
-  width: 12rem;
+  width: 14rem;
+  justify-self: center;
 }
 
 .norgesferie-cover > img:hover,
@@ -276,9 +277,6 @@ p { margin: 0; }
   }
   .margin-bottom {
     margin-bottom: 2rem;
-  }
-  .norgesferie-cover {
-    justify-self: center;
   }
   .box-description { grid-column: 1/2; }
   .footer {
