@@ -187,9 +187,9 @@ p { margin: 0; }
 }
 
 .box-wyng {
-  border: 1px solid white;
-  margin-bottom: -2rem;
-  width: auto;
+  background-color: #103b10;
+  background-image: linear-gradient(150deg, #1b3c5b, #103b10);
+  margin-bottom: 2rem;
 }
 
 /* Modal */
