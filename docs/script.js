@@ -12,11 +12,11 @@ thief1.onclick = function(){
   captionText.innerHTML = thief1.alt;
 }
 
-// thief2.onclick = function(){
-//   modal.style.display = "block";
-//   modalImg.src = thief2.src;
-//   captionText.innerHTML = thief2.alt;
-// }
+thief2.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = thief2.src;
+  captionText.innerHTML = thief2.alt;
+}
 
 let close = document.getElementsByClassName("close")[0];
 
